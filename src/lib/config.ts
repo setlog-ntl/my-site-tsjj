@@ -173,13 +173,13 @@ function parseJSON<T>(raw: string | undefined, fallback: T): T {
 }
 
 export const siteConfig = {
-  name: process.env.NEXT_PUBLIC_SITE_NAME || '정하은',
+  name: process.env.NEXT_PUBLIC_SITE_NAME || '최동혁',
   nameEn: process.env.NEXT_PUBLIC_SITE_NAME_EN || 'Haeun Jung',
   title: process.env.NEXT_PUBLIC_TITLE || '그래픽 디자이너',
   titleEn: process.env.NEXT_PUBLIC_TITLE_EN || 'Graphic Designer',
   tagline: process.env.NEXT_PUBLIC_TAGLINE || '브랜드의 이야기를 시각으로 풀어내는 그래픽 디자이너',
   taglineEn: process.env.NEXT_PUBLIC_TAGLINE_EN || 'Graphic designer who tells brand stories through visuals',
-  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || null,
+  avatarUrl: process.env.NEXT_PUBLIC_AVATAR_URL || `${_basePath}/images/1772062857973-upload.webp`,
   services: parseJSON<ServiceItem[]>(process.env.NEXT_PUBLIC_SERVICES, DEMO_SERVICES),
   portfolio: parseJSON<PortfolioItem[]>(process.env.NEXT_PUBLIC_PORTFOLIO, DEMO_PORTFOLIO),
   testimonials: parseJSON<TestimonialItem[]>(process.env.NEXT_PUBLIC_TESTIMONIALS, DEMO_TESTIMONIALS),
