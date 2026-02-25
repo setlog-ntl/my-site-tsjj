@@ -81,8 +81,8 @@ const DEMO_PORTFOLIO: PortfolioItem[] = [
     categoryEn: 'Brand Identity',
     desc: '성수 스페셜티 카페의 브랜드 전면 개편.',
     descEn: 'Complete brand overhaul for a Seongsu specialty cafe.',
-    imageUrl: `${_basePath}https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=600`,
-    tags: ['로고', '패키지', '브랜딩'],
+    imageUrl: `${_basePath}`,
+    tags: [],
   },
   {
     title: 'NILE 스킨케어 패키지',
@@ -91,8 +91,8 @@ const DEMO_PORTFOLIO: PortfolioItem[] = [
     categoryEn: 'Packaging Design',
     desc: '미니멀 럭셔리 컨셉의 스킨케어 라인 패키지 디자인.',
     descEn: 'Minimal-luxury skincare packaging that secured retail placement post-launch.',
-    imageUrl: `${_basePath}https://images.unsplash.com/photo-1556228720-195a672e8a03?w=600`,
-    tags: ['패키지', '럭셔리', '뷰티'],
+    imageUrl: `${_basePath}`,
+    tags: [],
   },
   {
     title: '그린웨이 비영리 소셜 키트',
@@ -101,8 +101,8 @@ const DEMO_PORTFOLIO: PortfolioItem[] = [
     categoryEn: 'Social Media Kit',
     desc: '환경 비영리 단체의 캠페인 비주얼 제작.',
     descEn: 'Campaign visuals for an environmental NGO.',
-    imageUrl: `${_basePath}https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=600`,
-    tags: ['소셜', 'NGO', '환경'],
+    imageUrl: `${_basePath}`,
+    tags: [],
   }
 ];
 
