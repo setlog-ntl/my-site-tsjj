@@ -12,13 +12,11 @@ export default function Home() {
   return (
     <>
       <NavHeader />
-      <main>
+      <main id="main">
         <HeroSection config={siteConfig} />
         <ServicesSection services={siteConfig.services} />
         <PortfolioSection portfolio={siteConfig.portfolio} />
-        {siteConfig.testimonials.length > 0 && (
-          <TestimonialsSection testimonials={siteConfig.testimonials} />
-        )}
+        <TestimonialsSection testimonials={siteConfig.testimonials} />
         <ProcessSection process={siteConfig.process} />
         <ContactSection config={siteConfig} />
       </main>
